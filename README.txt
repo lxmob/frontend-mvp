@@ -12,7 +12,7 @@ View 只关注于视图的管理
 P 层做了什么
 Presenter 是呈现管理，调用 M 层方法更新数据、调用 M 层方法更新视图
 
-最初的 Presentation Model 没有 M 与 C 层的概念
+最初的 Presentation Model 没有 M 与 V 层的概念
 就是对更新数据的方法与更新视图的方法的单独抽离出来进行封装
 而这种呈现管理就是在两者中间层做一个 Driver
 后来觉得这种方式太复杂了，其实就是在对逻辑方法与视图模板的绑定 binder 也就是 MVB
